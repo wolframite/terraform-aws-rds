@@ -22,7 +22,7 @@ variable "enabled" {
 }
 
 variable "availability_zone" {
-  type =        string
+  type        = string
   description = "Prefered availability zone"
 }
 
