@@ -39,6 +39,7 @@ resource "aws_db_instance" "default" {
   max_allocated_storage = var.max_allocated_storage
   storage_encrypted     = var.storage_encrypted
   kms_key_id            = var.kms_key_arn
+  availability_zone     = var.availability_zone
 
   vpc_security_group_ids = compact(
     concat(

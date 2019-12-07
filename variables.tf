@@ -21,6 +21,11 @@ variable "enabled" {
   default     = true
 }
 
+variable "availability_zone" {
+  type =        string
+  description = "Prefered availability zone"
+}
+
 variable "dns_zone_id" {
   type        = string
   default     = ""
